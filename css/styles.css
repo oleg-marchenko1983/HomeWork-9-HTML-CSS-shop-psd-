@@ -1,0 +1,347 @@
+
+*
+{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+
+body
+{
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	font: 10px Tahoma;
+}
+
+.wrapper
+{
+	width: 780px;
+	height: 100%;
+	margin:0 auto;
+	border: 1px solid #b2b2b2;
+    padding: 0px 3px 0px 3px;
+}
+
+/* start HEADER */
+header
+{
+	display: flex;
+}
+
+.logo img
+{
+	height: 75px;
+}
+
+
+.header_right
+{
+    display: flex;
+    align-items: center;
+	width: 100%;
+	height: 75px;
+    padding-left: 84px;
+    color: white;
+    background: rgba(122,0,29,1);
+    background: linear-gradient(to right, rgba(96,0,1,1) 0%, rgba(161,2,39,1) 49%, rgba(196,3,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7a001d', endColorstr='#c40330', GradientType=1 );
+}
+
+.countries_flag
+{
+	border-right: 1px dashed #b2b2b2;
+    padding: 11px;
+}
+.countries_flag>img
+{
+	padding: 1px 7px;
+	cursor: pointer;
+}
+.shopping_text
+{
+	display: inline;
+	font-size: 11px;
+	text-align: right;
+	border-right: 1px dashed #b2b2b2;
+    padding: 15px;
+}
+.currencies
+{
+ 	padding: 15px;
+}
+.text7
+{
+	width: 161px;
+    font-size: 11px;
+}
+
+.logo img
+{
+	height: 75px;
+}
+
+/*end header*/
+
+/* START NAV */
+nav ul
+{
+	list-style-image: url(../img/bullet.png);
+	margin: 25px 40px;
+}
+
+nav ul li
+{
+	padding: 3px 12px;
+	border-bottom: 1px dotted #e2edeb;
+}
+nav ul a
+{
+	text-decoration: none;
+	font: bold 13px Tahoma;
+	color: #535353;
+}
+
+nav ul a:hover
+{
+	color: #83040F;
+}
+
+/* END NAV */
+
+.camera
+{
+	display: flex;
+	position: relative;
+}
+figure .cam1
+{
+	position: absolute;
+	top: -26px;
+    right: 402px;
+    z-index: 1;
+}
+
+figure .cam2
+{
+	position: absolute;
+	top: 42px;
+    right: 352px;
+}
+
+.banner
+{
+	position: absolute;
+	top: 9px;
+    left: 436px;
+}
+.section_banner a>p
+{
+	text-decoration: none;
+	font: bold 13px Tahoma;
+	color: #535353;
+    padding-top: 108px;
+    padding-left: 233px;
+}
+
+.section_banner{
+	position: relative;
+}
+
+.section_banner span
+{
+	font: bold 13px Tahoma;
+	color:#83040F;
+}
+
+.section_banner .arrow_red{
+	position: absolute;
+	right: -58px;
+    top: 108px;
+}
+
+.section_banner .arrow_black{
+	position: absolute;
+	right: -88px;
+    top: 108px;
+}
+
+/*START ASIDE*/
+
+.text_aside{
+	font:bold 13px Tahoma;
+	color: #535353;
+	background-color: #CBCBCB;
+	padding: 8px;
+    margin-left: 8px;
+}
+
+ aside ul
+{
+	list-style-image: url(../img/arrow_very_small.png);
+	margin: 25px 32px;
+
+}
+ aside ul a
+{
+	text-decoration: none;
+	font: 11px Tahoma;
+	color: #535353;
+}
+
+aside ul a:hover
+{
+	color: #83040F;
+}
+
+aside ul li
+{
+	padding: 4px;
+}
+
+.banner2
+{
+	width: 197px;
+	height: 52px;
+}
+
+/* END ASIDE*/
+
+main
+{
+	display: flex;
+}
+
+/* START ARTICLE */
+article
+{
+	width: 600px;
+	height: 580px;
+	background-color: #1F1F1F;
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h1
+{
+	color:white;
+	font: bold 12px Tahoma;
+	padding: 10px 37px;
+}
+
+
+.text_price
+{
+    color: #de0303;
+    font: bold 14px Tahoma;
+    line-height: 96px;
+}
+
+.foto_items img
+{
+	width: 101px;
+}
+.section_items
+{
+	width: 254px;
+	height: 165px;
+	border: 3px double;
+	margin: 2px;
+	background-color: white;
+}
+
+.text_name{
+	font: bold 11px Tahoma;
+	color: #333333;
+	padding-top: 8px;
+}
+
+.foto_items
+{
+    padding-left: 20px;
+    width: 106px;
+    float:left;
+}
+
+.foto_items_full img
+{
+    width: 258px;
+    height: 168px;
+}
+.section_items_full
+{
+	width: 256px;
+	height: 167px;
+	margin: 5px;
+	background-color: white;
+}
+.links_details
+{
+	padding-left: 19px;
+	padding-bottom: 14px;
+    word-spacing: 6px;
+}
+
+/* START FOOTER*/
+
+footer
+{
+	width: 100%;
+	height:70px;
+	background: rgba(252,252,252,1);
+	background: linear-gradient(to bottom, rgba(252,252,252,1) 0%, rgba(242,242,242,1) 20%, rgba(189,189,189,1) 64%, rgba(189,189,189,1) 80%);
+	display: flex;
+
+}
+footer a
+{
+ 	color:black;
+}
+
+footer a:hover
+{
+	border-bottom: 1px solid black;
+}
+.nav_footer
+{
+    margin-top: 20px;
+    line-height: 16px;
+}
+
+.sprites
+{
+	display: inline-block;
+
+}
+
+.sprites_cards
+{
+	width: 205px;
+	margin: 21px;
+
+}
+.bg-mastercard
+{
+    width: 39px; height: 26px;
+    background: url('../img/cards_sprites.png') -10px -56px;
+}
+.bg-visa
+{
+    width: 39px; height: 26px;
+    background: url('../img/cards_sprites.png') -110px -10px;
+}
+.bg-paypal
+{
+    width: 80px; height: 26px;
+    background: url('../img/cards_sprites.png') -10px -10px;
+}
+.border
+{
+    border-right: 2px dotted rgba(252,252,252,1);
+    padding-left: 11px;
+    padding-bottom: 20px;
+}
