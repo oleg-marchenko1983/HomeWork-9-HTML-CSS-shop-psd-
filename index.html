@@ -8,25 +8,27 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
+		<div class="container">
 			<!-- Start HEADER -->
 			<header>
 
-				<figure>
 					<div class="logo">
-						<img src="img/main.jpg" alt="Logo"></div>
-				</figure>
+						<img src="img/main.jpg" alt="Logo">
+					</div>
 
 				<div class="header_right">
 					<div class="shopping_text">
 						<p>Shopping Cart:</p>
 						<p>0 items</p>
-					</div>
-					<figure class="countries_flag">
-						<figcaption>Choose your language:</figcaption>
-						<img src="img/english.jpg" alt="English">
-						<img src="img/german.jpg" alt="Germany">
-						<img src="img/spanish.jpg" alt="Spanish"></figure>
+					</div >
+					<div class="countries_flag">
+						<p>Choose your language:</p>
+						<ul>
+						<li><a href="#"><img src="img/english.jpg" alt="English"></a></li>
+						<li><a href="#"><img src="img/german.jpg" alt="Germany"></a></li>
+						<li><a href="#"><img src="img/spanish.jpg" alt="Spanish"></a></li>
+					</ul>
+						</div>
 					<div class="currencies">
 						<p>Currencies</p>
 						<select name="select" class="text7">
@@ -66,21 +68,18 @@
 						<img class="banner" src="img/main-18.jpg" alt="Banner"></figure>
 
 					<div class="section_banner">
-						<a href="#">
 							<p class="text_cam">
 								Special edition
-								<span>WEB CAMERAS</span>
+								<a href="#"><span>WEB CAMERAS</span></a>
 								<br>with an incredible price !</p>
 							<img class="arrow_red" src="img/arrow_red.png" alt="Arrow_red">
-							<img class="arrow_black" src="img/arrow_black.png" alt="Arrow_black"></a>
+							<img class="arrow_black" src="img/arrow_black.png" alt="Arrow_black">
 					</div>
 				</div>
-
-			<!--START MAIN-->
-			<main>
+			<div class="wrapper">
 				<!--START ASIDE-->
 				<aside>
-					<p class="text_aside">BROWSE BY CATEGORY</p>
+					<h1 class="text_aside">BROWSE BY CATEGORY</h1>
 					<ul class="list_category">
 						<li>
 							<a href="#">Barebones</a>
@@ -147,13 +146,13 @@
 						<img class="banner2" src="img/details-68.jpg" alt="banner">
 					</figure>
 				</aside>
+				<!--START main-->
+			<main>
+				<section>
+					<h2 class="text_h2">FEATURES PRODUCT</h2>
+					<div class="section_items">
 
-				<!--START ARTICLE-->
-				<article>
-					<h1 class="text_h1">FEATURES PRODUCT</h1>
-					<div class="container">
-
-						<div class="section_items">
+						<div class="section_item">
 
 							<figure class="foto_items">
 								<img src="img/monitor.jpg" alt="Monitor"></figure>
@@ -165,14 +164,14 @@
 									<span class="text_price">$997</span>
 								</p>
 							</div>
-							<figure class="links_details">
+							<div class="links_details">
 								<a href="#">
 								<img src="img/details.jpg" alt="details"></a>
 								<a href="#">
 								<img src="img/add-to-cart.jpg" alt="add-to-cart"></a>
-							</figure>
+							</div>
 						</div>
-						<div class="section_items">
+						<div class="section_item">
 
 							<figure class="foto_items">
 								<img src="img/noutbook.jpg" alt="Noutbook"></figure>
@@ -184,14 +183,14 @@
 									<span class="text_price">$1799</span>
 								</p>
 							</div>
-							<figure class="links_details">
+							<div class="links_details">
 								<a href="#">
 								<img src="img/details.jpg" alt="details"></a>
 								<a href="#">
 								<img src="img/add-to-cart.jpg" alt="add-to-cart"></a>
-							</figure>
+							</div>
 						</div>
-						<div class="section_items">
+						<div class="section_item">
 
 							<figure class="foto_items">
 								<img src="img/printer.jpg" alt="Printer"></figure>
@@ -203,14 +202,14 @@
 									<span class="text_price">$109</span>
 								</p>
 							</div>
-							<figure class="links_details">
+							<div class="links_details">
 								<a href="#">
 								<img src="img/details.jpg" alt="details"></a>
 								<a href="#">
 								<img src="img/add-to-cart.jpg" alt="add-to-cart"></a>
-							</figure>
+							</div>
 						</div>
-						<div class="section_items">
+						<div class="section_item">
 
 							<figure class="foto_items">
 								<img src="img/proektor.jpg" alt="Projector"></figure>
@@ -222,12 +221,12 @@
 									<span class="text_price">$1599</span>
 								</p>
 							</div>
-							<figure class="links_details">
+							<div class="links_details">
 								<a href="#">
 								<img src="img/details.jpg" alt="details"></a>
 								<a href="#">
 								<img src="img/add-to-cart.jpg" alt="add-to-cart"></a>
-							</figure>
+							</div>
 						</div>
 						<div class="section_items_full">
 
@@ -240,23 +239,23 @@
 								<a href="#"><img src="img/sound_system.jpg" alt="Monitor"></a></figure>
 						</div>
 					</div>
-				</article>
+				</section>
 			</main>
+		</div>
 			<!-- START FOOTER -->
 			<footer>
 
-				<div class="sprites_cards">
-					<span class="sprites bg-paypal"></span>
-					<span class="sprites bg-visa"></span>
-					<span class="sprites bg-mastercard"></span>
-					<span class="border">
-    </span>
-				</div>
-				<div class="nav_footer">
-					<p><a href="#">SPECIAL</a> | <a href="">SITE-SEARCH</a> | <a href="">CONTACTS</a> | <a href="">CREATE AN ACCOUNT</a> | <a href="">CUSTOMER LOGIN</a> </p>
-					<p> Copyright &copy; Your Company Name </p>
-				</div>
+				<ul class="sprites_cards">
+					<li class="sprites bg-paypal"></li>
+					<li class="sprites bg-visa"></li>
+					<li class="sprites bg-mastercard"></li>
+				</ul>
+				<span class="border"></span>
 
+				<ul class="nav_footer">
+					<li><a href="#">SPECIAL</a> | <a href="">SITE-SEARCH</a> | <a href="">CONTACTS</a> | <a href="">CREATE AN ACCOUNT</a> | <a href="">CUSTOMER LOGIN</a> </li>
+					<li> <p>Copyright &copy; Your Company Name</p> </li>
+				</ul>
 
 			</footer>
 
