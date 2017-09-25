@@ -6,7 +6,7 @@
 }
 
 body  {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	font: 10px Tahoma, Helvetica, sans-serif;
 }
 
@@ -33,12 +33,12 @@ header  {
 	width: 100%;
 	height: 75px;
     padding-left: 84px;
-    color: white;
+    color: #ffffff;
     background: linear-gradient(to right, rgba(96,0,1,1) 0%, rgba(161,2,39,1) 49%, rgba(196,3,48,1) 100%);
 }
 
 .countries_flag  {
-	border-right: 1px dashed #b2b2b2;
+	border-right: 1px dashed #ac6667;
     padding: 13px 14px 0px;
 }
 .countries_flag ul li  {
@@ -50,7 +50,7 @@ header  {
 .shopping_text  {
 	font-size: 11px;
 	text-align: right;
-	border-right: 1px dashed #b2b2b2;
+	border-right: 1px dashed #ac6667;
     padding: 15px;
 }
 .currencies  {
@@ -71,16 +71,16 @@ header  {
 nav ul  {
 	list-style-image: url(../img/bullet.png);
 	list-style-position: inside;
-	margin: 25px 47px;
+	margin: 18px 47px;
 }
 
 nav ul li  {
-	padding: 3px 12px;
-	border-bottom: 1px dotted #e2edeb;
+	padding: 4px 12px;
+	border-bottom: 1px dotted #dddddd;
 }
 nav ul a  {
 	text-decoration: none;
-	font: bold 13px Tahoma, Helvetica, sans-serif;
+	font: 14px "Myriad Pro", Tahoma, Helvetica, sans-serif;
 	color: #535353;
 }
 
@@ -110,14 +110,14 @@ figure .cam2  {
 
 .banner  {
 	position: absolute;
-	top: 9px;
-    left: 456px;
+	top: 25px;
+	left: 440px;
 }
 
 .section_banner p  {
-	font-size:13px;
-	font-weight: bold;
-	color: #535353;
+	font-size:14px;
+	font-family: "Myriad Pro", Tahoma, Helvetica, sans-serif;
+	color: #1f1f1f;
     padding-top: 108px;
     padding-left: 233px;
 }
@@ -128,19 +128,18 @@ figure .cam2  {
 
 .section_banner span  {
 	font: bold 13px Tahoma, Helvetica, sans-serif;
-	color:#83040F;
+	color:#9f0000;
 }
 
 .section_banner .arrow_red  {
 	position: absolute;
-	right: -58px;
-    top: 108px;
+	right: -54px;
+	top: 98px;
 }
-
 .section_banner .arrow_black  {
 	position: absolute;
-	right: -88px;
-    top: 108px;
+	right: -83px;
+    top: 98px;
 }
 
 .wrapper {
@@ -151,7 +150,7 @@ figure .cam2  {
 .text_aside  {
 	font:bold 13px Tahoma, Helvetica, sans-serif;
 	color: #535353;
-	background-color: #CBCBCB;
+	background-color: #cbcbcb;
 	padding: 8px;
     margin-left: 35px;
 }
@@ -166,7 +165,7 @@ figure .cam2  {
  aside ul a  {
 	text-decoration: none;
 	font: 11px Tahoma, Helvetica, sans-serif;
-	color: #535353;
+	color: #333333;
 	padding: 6px;
 }
 
@@ -181,7 +180,7 @@ aside ul li  {
 
 .banner2  {
 	width: 197px;
-	height: 45px;
+	height: 41px;
 	padding-left: 42px;
 }
 
@@ -190,8 +189,8 @@ aside ul li  {
 /* START main */
 section  {
 	width: 540px;
-	height: 580px;
-	background-color: #1F1F1F;
+	height: 576px;
+	background-color: #1f1f1f;
 }
 .section_items  {
 	display: flex;
@@ -199,8 +198,8 @@ section  {
 	justify-content: center;
 }
 
-.text_h2  {
-	color:white;
+.text_h3  {
+	color:#ffffff;
 	font: bold 12px Tahoma, Helvetica, sans-serif;
 	padding: 10px 21px;
 }
@@ -208,7 +207,14 @@ section  {
 .text_price  {
     color: #de0303;
     font: bold 14px Tahoma, Helvetica, sans-serif;
-    line-height: 96px;
+    line-height: 80px;
+}
+
+.border-bottom  {
+border-top: 1px dashed #cecece;
+width: 200px;
+margin-left: 18px;
+margin-bottom: 16px;
 }
 
 .foto_items img  {
@@ -220,7 +226,7 @@ section  {
 	height: 165px;
 	border: 3px double;
 	margin: 2px;
-	background-color: white;
+	background-color:#ffffff;
 }
 
 .text_name  {
@@ -260,18 +266,19 @@ footer  {
 }
 
 footer a  {
- 	color:black;
+ 	color:#000000;
+	padding: 3px;
 }
 
 footer a:hover  {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #000000;
 }
 
 .nav_footer  {
-	display: block;
-    margin-top: 20px;
-	margin-left: 38px;
-    line-height: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 26px;
+    margin-left: 38px;
 	list-style: none;
 }
 
@@ -280,8 +287,8 @@ footer a:hover  {
 }
 
 .sprites_cards  {
-	width: 165px;
-    margin: 21px 14px 0px 50px;
+	width: 184px;
+    margin: 21px 11px 0px 52px;
 	list-style: none;
 }
 
@@ -301,6 +308,5 @@ footer a:hover  {
 
 .border  {
     border-right: 2px dotted rgba(252,252,252,1);
-    padding-left: 11px;
     padding-bottom: 20px;
 }
